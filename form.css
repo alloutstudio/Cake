@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  color: white;
+}
+
+.headerform-logo {
+  display: block;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-icon {
+  width: 32px;
+  height: auto;        
+}
+
+.form-box {
+  background-color: #D40017;
+  padding: 30px 20px;
+  /*border-radius: 10px;*/
+}
+
+.form-box h1 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.subtitle {
+  font-size: 12px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  color: #f7f7f7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: white;
+  text-align: left;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  background-color: white;
+  color: #D40017;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 60%;
+  margin: 10px auto 0 auto;
+}
+
+.footer-box {
+  background-color: #dc3545; /* Bootstrap red (bg-danger) */
+  padding: 20px;
+}
+
+.bottomlogo {
+  max-width: 15%; /* Adjust size as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer p {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}

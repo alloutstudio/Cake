@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Cake</title>
+
+        <!-- Bootstrap 5 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="form.css" />
+    </head>
+
+    <body class="bg-dark text-white">
+
+            <!-- Header -->
+            <header class="d-flex justify-content-between align-items-center px-3 py-2 bg-danger fixed-top no-shadow">
+                <a href="index.html">
+                <img src="home icon.png" alt="Home" class="home-icon" />
+                </a>
+                <img src="cake-logo.png" alt="Cake Logo" class="headerform-logo" />
+            </header>
+
+            
+        
+            <!-- Spacer for fixed header -->
+            <div style="height: 60px;"></div>
+
+            <section class="form-box">
+                    <h1><b>WHOLESALE FORM</b></h1>
+                    <p class="subtitle"><b>Complete this form to establish a wholesale partnership with us.</b></p>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="006981d9-6f8e-4eaf-85d5-9120d33cc24b">
+
+      <!--<form action="mailer.php" method="POST">-->
+        <label>NAME</label>
+        <input type="text" name="name" required />
+        <label>PHONE NUMBER</label>
+        <input type="tel" name="phone" required />
+        <label>EMAIL</label>
+        <input type="email" name="email" required />
+        <label>MESSAGE</label>
+        <textarea name="message" rows="4" required></textarea>
+        <button type="submit">SUBMIT</button>
+      </form>
+    </section>
+        <div style="height: 5px;"></div>
+    <section class="footer-box text-center">
+  <img src="Cake-Logo.png" alt="Company Banner Bottom" class="bottomlogo" />
+  
+  <footer class="footer mt-3">
+    <p class="mb-0">Cake © 2025 MySite. All rights reserved.</p>
+  </footer>
+</section>
+
+
+    
+      
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </body>
+
+
+</html>
